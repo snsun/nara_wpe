@@ -234,10 +234,10 @@ def stft(
         *,
         axis=-1,
         window=signal.blackman,
-        window_length,
-        fading,
-        pad,
-        symmetric_window,
+        window_length: int=None,
+        fading: bool=True,
+        pad: bool=True,
+        symmetric_window: bool=False,
 ):
     """
     ToDo: Open points:

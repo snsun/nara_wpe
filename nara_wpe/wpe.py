@@ -772,7 +772,7 @@ def main():
     from nara_wpe import project_root
     import soundfile as sf
     from nara_wpe.utils import stft
-    from nara_wpe.utils import istft_loop as istft
+    from nara_wpe.utils import istft as istft
     from nara_wpe.utils import get_stft_center_frequencies
     from tqdm import tqdm
     from librosa.core.audio import resample
